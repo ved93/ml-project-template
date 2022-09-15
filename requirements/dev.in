@@ -1,0 +1,6 @@
+# Development requirements
+
+-c prod.txt
+black>=22.1.0
+mypy
+pytest
