@@ -6,9 +6,22 @@ An opinionated python ml project structure
 
 cd into project Directory   
 run   
-`conda env create -f environment.yml`
-`conda activate env_name`
-`make`  
+```
+conda env create -f environment.yml
+conda activate env_name
+make
+```
+
+## Workflow for production stage
+To install requirements,
+Below will automatically pick production requirements.txt file. 
+```
+pip-compile
+pip-sync
+```
+
+
+
 
 
 ## Structure
