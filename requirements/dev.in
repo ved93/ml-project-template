@@ -2,5 +2,5 @@
 
 -c prod.txt
 black>=22.1.0
-mypy
+mypy>=0.97
 pytest
